@@ -1,0 +1,29 @@
+Iniciar projeto node
+ - npm init -y
+
+ intalar express 
+- npm i express
+
+criar index.js e configurar o express 
+
+criar pastas config / controllers / models / routes
+
+criar banco de dados no mongodb
+
+criar arquivo db.js dentro de CONFIG 
+e configurar
+ecportar o 'connect' e depois importar o 'connect' no arquivo index.js 
+
+instalar o nodemon 
+
+- npm install -D nodemon 
+
+rodar com nodemon
+nodemon index.js
+
+configurar nodemon
+"scripts": {
+    "dev": "nodemon index.js"
+
+    e depois rodar com npm run dev
+
