@@ -27,3 +27,18 @@ configurar nodemon
 
     e depois rodar com npm run dev
 
+Criar rota userRoutes dentro de routes
+
+Criar userController na pasta controllers
+
+instalar o pacote body-parser
+    - npm i body-parser
+
+configurar as rotas e testar no insomnia
+
+instalar o express validator 
+
+npm install --save express-validator
+
+configurar o express-validator
+
