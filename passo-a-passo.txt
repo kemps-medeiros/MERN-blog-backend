@@ -1,3 +1,5 @@
+GIT REMOTE -V
+
 Iniciar projeto node
  - npm init -y
 
@@ -40,5 +42,17 @@ instalar o express validator
 
 npm install --save express-validator
 
-configurar o express-validator
+configurar o express-validator dentro do userController
 
+Criar um arquivo Users dentro de Models, e configurar
+um Schema para ele.
+
+Depois voltar no userController para configurar a rota que vai cadastrar no banco de dados
+Não esquecer de importar o Schema nesse arquivo
+
+instalar os pacotes: 
+jsonwebtoken - criar um token
+bcrypt - criptografar a senha
+
+continuar configurando a rota register , conigurando tambem o password e o token,
+usando as bibliotecas instaladas
