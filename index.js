@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const app = express();
 
-//connect mongodb database
+//connect mongodb database na pasta config, arquivo db.js
 connect();
 app.use(bodyParser.json());
 

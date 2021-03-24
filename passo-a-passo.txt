@@ -56,3 +56,29 @@ bcrypt - criptografar a senha
 
 continuar configurando a rota register , conigurando tambem o password e o token,
 usando as bibliotecas instaladas
+
+criar a API de login
+login
+loginValidations
+
+criar a rota de login
+
+===> CONFIGURAR O SETUP DO REACT
+-na pasta do projeto digitar:
+npx create-react-app client
+(client vai ser a pasta que vai conter o react, a parte frontend de nossa aplicação)
+
+-instalar o pacote concurrently,
+digitar:
+(digitar isso na pasta raiz do projeto: /mernblog) 
+npm i concurrently
+(isso é para executar vários comandos de forma simultanea, como npm run dev(para rodar node)
+e outro para rodar react)
+
+Atualizar o package.json da pasta raiz (backend) para:
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client", (rodar frontend)
+    "clientInstall": "npm install --prefix client", (instalar pacote na pasta client frontend)
+    "dev": "concurrently \" npm run server \" \" npm run client \"" (rodar backend e frontend simultaneos)
+
+
