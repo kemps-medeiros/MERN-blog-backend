@@ -1,4 +1,4 @@
-GIT REMOTE -V
+hGIT REMOTE -V
 
 Iniciar projeto node
  - npm init -y
@@ -80,5 +80,46 @@ Atualizar o package.json da pasta raiz (backend) para:
     "client": "npm start --prefix client", (rodar frontend)
     "clientInstall": "npm install --prefix client", (instalar pacote na pasta client frontend)
     "dev": "concurrently \" npm run server \" \" npm run client \"" (rodar backend e frontend simultaneos)
+
+- in em index.html do react dentro de client/public/
+
+- deletar o que nao for usar na pasta src dentro de client
+- criar pasta components em src 
+- criar dentro de components:
+=> Login.js
+=> Register.js 
+- criar uma pasta chamada auth dentro de components e incluir Login.js
+e Register.js dentro dessa pasta
+
+instalar os seguintes pacotes na pasta CLIENT:
+lembrar de entrar na pasta CLIENT:
+react-router / sass
+npm i react-router-dom node-sass@4.14.1
+
+entrar no google fonts
+selecionar a fonte poppins selecionar os tamanhos
+copiar link para importar essa fonte no projeto
+colar o link no index.html logo em cima do </head>
+No App.js ::
+fazer importacao do browserrouter route e switch do react-router-dom
+e configurar as rotas.
+lembrar de colocar parenteses depois do return Exemplo:
+return (
+    <Router>
+      <Switch>
+        <Route path="/" />
+      </Switch>
+    </Router>
+  );
+
+  Criar componente home
+  criar pasta SCSS dentro de SRC ,
+  e dentro dessa pasta criar duas pastas abstracts / base / layout / utils / components
+  criar um arquivo na pasta base, chamado _reset.scss
+
+criar arquivo na pasta SRC chamado main.scss
+configurar esse arquivo
+importar (NAO ESQUECER) o arquivo main.scss no App.js / colocar isso em cima das importacoes
+dos componentes
 
 
